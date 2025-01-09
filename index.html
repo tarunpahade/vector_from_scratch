@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Building Codes Search</title>
+    <style>
+        body { margin: 2em; font-family: Arial; }
+        #results { margin-top: 1em; }
+        .result { 
+            padding: 1em; 
+            border: 1px solid #ccc;
+            margin-bottom: 1em;
+            border-radius: 4px;
+        }
+        .title { font-weight: bold; }
+        .content { margin: 0.5em 0; }
+        .source { color: #666; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <h1>Building Codes Search</h1>
+    <input type="text" id="searchInput" placeholder="Enter search term">
+    <button onclick="search()">Search</button>
+    <div id="results"></div>
+
+    <script>
+        async function search() {
+            const query = document.getElementById('searchInput').value;
+            try {
+                const response = await fetch('/augrade/buildings_codes.json');
+                if (!response.ok) throw new Error('Failed to fetch');
+                
+                const documents = await response.json();
+                const results = documents
+                    .filter(doc => {
+                        const content = doc.content?.toLowerCase() || '';
+                        return content.includes(query.toLowerCase());
+                    })
+                    .slice(0, 10); // Limit to top 10 results
+
+                displayResults(results);
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('results').innerHTML = 
+                    '<div class="result">Error loading building codes</div>';
+            }
+        }
+
+        function displayResults(results) {
+            const resultsDiv = document.getElementById('results');
+            if (results.length === 0) {
+                resultsDiv.innerHTML = '<div class="result">No results found</div>';
+                return;
+            }
+
+            resultsDiv.innerHTML = results
+                .map(doc => `
+                    <div class="result">
+                        <div class="title">${doc.title || 'Untitled'}</div>
+                        <div class="content">${doc.content || ''}</div>
+                        <div class="source">
+                            <a href="${doc.subsubsection_url || '#'}" target="_blank">
+                                Source
+                            </a>
+                        </div>
+                    </div>
+                `)
+                .join('');
+        }
+    </script>
+</body>
+</html>
