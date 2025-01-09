@@ -1,0 +1,101 @@
+{"id": "USA", "name": "United States of America"}
+{"id": "IND", "name": "India"}
+{"id": "UAE", "name": "United Arab Emirates"}
+{"id": "SGP", "name": "Singapore"}
+{"id": "AL", "name": "Alabama", "countryId": "USA"}
+{"id": "AK", "name": "Alaska", "countryId": "USA"}
+{"id": "AZ", "name": "Arizona", "countryId": "USA"}
+{"id": "AR", "name": "Arkansas", "countryId": "USA"}
+{"id": "CA", "name": "California", "countryId": "USA"}
+{"id": "CO", "name": "Colorado", "countryId": "USA"}
+{"id": "CT", "name": "Connecticut", "countryId": "USA"}
+{"id": "DE", "name": "Delaware", "countryId": "USA"}
+{"id": "FL", "name": "Florida", "countryId": "USA"}
+{"id": "GA", "name": "Georgia", "countryId": "USA"}
+{"id": "HI", "name": "Hawaii", "countryId": "USA"}
+{"id": "ID", "name": "Idaho", "countryId": "USA"}
+{"id": "IL", "name": "Illinois", "countryId": "USA"}
+{"id": "IN", "name": "Indiana", "countryId": "USA"}
+{"id": "IA", "name": "Iowa", "countryId": "USA"}
+{"id": "KS", "name": "Kansas", "countryId": "USA"}
+{"id": "KY", "name": "Kentucky", "countryId": "USA"}
+{"id": "LA", "name": "Louisiana", "countryId": "USA"}
+{"id": "ME", "name": "Maine", "countryId": "USA"}
+{"id": "MD", "name": "Maryland", "countryId": "USA"}
+{"id": "MA", "name": "Massachusetts", "countryId": "USA"}
+{"id": "MI", "name": "Michigan", "countryId": "USA"}
+{"id": "MN", "name": "Minnesota", "countryId": "USA"}
+{"id": "MS", "name": "Mississippi", "countryId": "USA"}
+{"id": "MO", "name": "Missouri", "countryId": "USA"}
+{"id": "MT", "name": "Montana", "countryId": "USA"}
+{"id": "NE", "name": "Nebraska", "countryId": "USA"}
+{"id": "NV", "name": "Nevada", "countryId": "USA"}
+{"id": "NH", "name": "New Hampshire", "countryId": "USA"}
+{"id": "NJ", "name": "New Jersey", "countryId": "USA"}
+{"id": "NM", "name": "New Mexico", "countryId": "USA"}
+{"id": "NY", "name": "New York", "countryId": "USA"}
+{"id": "NC", "name": "North Carolina", "countryId": "USA"}
+{"id": "ND", "name": "North Dakota", "countryId": "USA"}
+{"id": "OH", "name": "Ohio", "countryId": "USA"}
+{"id": "OK", "name": "Oklahoma", "countryId": "USA"}
+{"id": "OR", "name": "Oregon", "countryId": "USA"}
+{"id": "PA", "name": "Pennsylvania", "countryId": "USA"}
+{"id": "RI", "name": "Rhode Island", "countryId": "USA"}
+{"id": "SC", "name": "South Carolina", "countryId": "USA"}
+{"id": "SD", "name": "South Dakota", "countryId": "USA"}
+{"id": "TN", "name": "Tennessee", "countryId": "USA"}
+{"id": "TX", "name": "Texas", "countryId": "USA"}
+{"id": "UT", "name": "Utah", "countryId": "USA"}
+{"id": "VT", "name": "Vermont", "countryId": "USA"}
+{"id": "VA", "name": "Virginia", "countryId": "USA"}
+{"id": "WA", "name": "Washington", "countryId": "USA"}
+{"id": "WV", "name": "West Virginia", "countryId": "USA"}
+{"id": "WI", "name": "Wisconsin", "countryId": "USA"}
+{"id": "WY", "name": "Wyoming", "countryId": "USA"}
+{"id": "AP", "name": "Andhra Pradesh", "countryId": "IND"}
+{"id": "AR", "name": "Arunachal Pradesh", "countryId": "IND"}
+{"id": "AS", "name": "Assam", "countryId": "IND"}
+{"id": "BR", "name": "Bihar", "countryId": "IND"}
+{"id": "CG", "name": "Chhattisgarh", "countryId": "IND"}
+{"id": "HR", "name": "Haryana", "countryId": "IND"}
+{"id": "HP", "name": "Himachal Pradesh", "countryId": "IND"}
+{"id": "JK", "name": "Jammu and Kashmir", "countryId": "IND"}
+{"id": "JH", "name": "Jharkhand", "countryId": "IND"}
+{"id": "KA", "name": "Karnataka", "countryId": "IND"}
+{"id": "KL", "name": "Kerala", "countryId": "IND"}
+{"id": "MP", "name": "Madhya Pradesh", "countryId": "IND"}
+{"id": "MH", "name": "Maharashtra", "countryId": "IND"}
+{"id": "MN", "name": "Manipur", "countryId": "IND"}
+{"id": "ML", "name": "Meghalaya", "countryId": "IND"}
+{"id": "MZ", "name": "Mizoram", "countryId": "IND"}
+{"id": "NL", "name": "Nagaland", "countryId": "IND"}
+{"id": "OD", "name": "Odisha", "countryId": "IND"}
+{"id": "PB", "name": "Punjab", "countryId": "IND"}
+{"id": "RJ", "name": "Rajasthan", "countryId": "IND"}
+{"id": "SK", "name": "Sikkim", "countryId": "IND"}
+{"id": "TN", "name": "Tamil Nadu", "countryId": "IND"}
+{"id": "TG", "name": "Telangana", "countryId": "IND"}
+{"id": "UP", "name": "Uttar Pradesh", "countryId": "IND"}
+{"id": "UK", "name": "Uttarakhand", "countryId": "IND"}
+{"id": "WB", "name": "West Bengal", "countryId": "IND"}
+{"id": "AN", "name": "Andaman and Nicobar Islands", "countryId": "IND"}
+{"id": "CH", "name": "Chandigarh", "countryId": "IND"}
+{"id": "DN", "name": "Dadra and Nagar Haveli and Daman and Diu", "countryId": "IND"}
+{"id": "DL", "name": "Delhi", "countryId": "IND"}
+{"id": "LD", "name": "Lakshadweep", "countryId": "IND"}
+{"id": "PY", "name": "Puducherry", "countryId": "IND"}
+{"id": "LA", "name": "Ladakh", "countryId": "IND"}
+{"id": "AZ", "name": "Abu Dhabi", "countryId": "UAE"}
+{"id": "DU", "name": "Dubai", "countryId": "UAE"}
+{"id": "SH", "name": "Sharjah", "countryId": "UAE"}
+{"id": "AJ", "name": "Ajman", "countryId": "UAE"}
+{"id": "FU", "name": "Fujairah", "countryId": "UAE"}
+{"id": "UQ", "name": "Umm Al-Quwain", "countryId": "UAE"}
+{"id": "RA", "name": "Ras Al Khaimah", "countryId": "UAE"}
+{"id": "CC", "name": "Central Catchment", "countryId": "SGP"}
+{"id": "SE", "name": "South East", "countryId": "SGP"}
+{"id": "SW", "name": "South West", "countryId": "SGP"}
+{"id": "NE", "name": "North East", "countryId": "SGP"}
+{"id": "NW", "name": "North West", "countryId": "SGP"}
+{"id": "SR", "name": "Sentosa", "countryId": "SGP"}
+{"id": "CN", "name": "Central", "countryId": "SGP"}

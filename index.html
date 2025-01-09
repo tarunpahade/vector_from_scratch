@@ -26,7 +26,7 @@
 async function search() {
     const query = document.getElementById('searchInput').value;
     try {
-        const response = await fetch('https://raw.githubusercontent.com/tarunpahade/vector_from_scratch/refs/heads/main/augrade/building_codes_db.json');
+        const response = await fetch('https://raw.githubusercontent.com/tarunpahade/vector_from_scratch/refs/heads/main/data/building_codes_db.json');
         if (!response.ok) throw new Error('Failed to fetch');
         
         const data = await response.json();
